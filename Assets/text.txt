@@ -1,0 +1,25 @@
+0
+Esta es una nave especial.
+
+6
+Puede acelerar (click derecho) y disparar (click izquierdo).
+
+11
+Este es el porcentaje de probabilidad de que el proyectil se dispare hacia delante.
+
+
+La probabilidad se reduce con cada disparo.
+
+Si el proyectil se dispara hacia atrás, la nave se destruirá a si misma.
+
+Coge los orbes para conseguir puntos y devolver la probabilidad al 100%.
+
+Pronto descubrirás que esa probabilidad
+no es tan grande como parece.
+
+Pronto te dará miedo superar...
+
+The 95% threshold
+(El umbral del 95%)
+
+Consigue 95 puntos para ganar.
