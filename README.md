@@ -1,4 +1,6 @@
 ![Logo](/Screenshots/banner.png)
+Original link: https://vanesamayonesa.itch.io/the-95-threshold
+
 *Sometimes the chance of something happening is not as big as it seems.*
 
 The 95% Threshold is an action game. It's played with the mouse, using the keyboard for the menus.
