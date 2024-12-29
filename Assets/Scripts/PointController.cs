@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PointController : MonoBehaviour
 {
@@ -16,7 +14,6 @@ public class PointController : MonoBehaviour
         ChangePlace();
     }
 
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -30,7 +27,7 @@ public class PointController : MonoBehaviour
     public void ChangePlace()
     {
         pos = Random.insideUnitCircle * 4f;
-        while(Vector2.Distance(pos, playerTR.position) < 3.5f)
+        while (Vector2.Distance(pos, playerTR.position) < 3.5f)
         {
             pos = Random.insideUnitCircle * 4f;
         }

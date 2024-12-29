@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class AudioController : MonoBehaviour
 {
@@ -20,7 +18,7 @@ public class AudioController : MonoBehaviour
 
     void Update()
     {
-        if(started && !AS.isPlaying)
+        if (started && !AS.isPlaying)
         {
             if (firstSong)
             {

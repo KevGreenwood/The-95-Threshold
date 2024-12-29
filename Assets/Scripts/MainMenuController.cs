@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
@@ -18,12 +16,12 @@ public class MainMenuController : MonoBehaviour
 
     void Start()
     {
-        
+
     }
 
     void Update()
     {
-        if(GameController.instance.state == 0 && !buttonPressed)
+        if (GameController.instance.state == 0 && !buttonPressed)
         {
             if (!inCredits)
             {
@@ -77,7 +75,7 @@ public class MainMenuController : MonoBehaviour
                 timer = 0;
             }
 
-            if(timer > 1f && InputController.instance.enter)
+            if (timer > 1f && InputController.instance.enter)
             {
                 intro.SetActive(false);
                 Invoke("StartGame", 1f);

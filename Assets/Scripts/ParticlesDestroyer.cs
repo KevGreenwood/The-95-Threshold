@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ParticlesDestroyer : MonoBehaviour
 {
@@ -10,7 +8,7 @@ public class ParticlesDestroyer : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if(timer >= 1)
+        if (timer >= 1)
         {
             Destroy(gameObject);
         }

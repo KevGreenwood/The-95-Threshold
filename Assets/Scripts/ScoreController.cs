@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using TMPro;
 using UnityEngine;
-using TMPro;
 
 public class ScoreController : MonoBehaviour
 {
@@ -62,7 +60,7 @@ public class ScoreController : MonoBehaviour
 
     void PlayScore()
     {
-        AS1.pitch = 1 + score/20f;
+        AS1.pitch = 1 + score / 20f;
         AS1.PlayOneShot(clip);
     }
 

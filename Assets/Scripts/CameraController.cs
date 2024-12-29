@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
@@ -22,7 +20,7 @@ public class CameraController : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        cam.orthographicSize = Mathf.Lerp(size1, size2, timer/10f);
+        cam.orthographicSize = Mathf.Lerp(size1, size2, timer / 10f);
 
         if (timer > 10f)
         {
@@ -39,7 +37,5 @@ public class CameraController : MonoBehaviour
                 size2 = 5.5f;
             }
         }
-
-
     }
 }

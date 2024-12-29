@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
@@ -19,7 +17,7 @@ public class GameController : MonoBehaviour
     public void ResetGame()
     {
         objs = GameObject.FindGameObjectsWithTag("Enemy");
-        foreach(GameObject obj in objs)
+        foreach (GameObject obj in objs)
         {
             Destroy(obj);
         }

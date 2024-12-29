@@ -1,7 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using System.Collections.Generic;
 using TMPro;
+using UnityEngine;
 
 public class ColorController : MonoBehaviour
 {
@@ -50,7 +49,7 @@ public class ColorController : MonoBehaviour
 
         for (int i = 0; i < sprites.Count; i++)
         {
-            if(sprites[i] != null)
+            if (sprites[i] != null)
             {
                 sprites[i].color = currentColor;
             }
@@ -62,7 +61,7 @@ public class ColorController : MonoBehaviour
         }
         cam.backgroundColor = currentColor;
 
-        if(playerController.percentage > 95)
+        if (playerController.percentage > 95)
         {
             alpha = 20 + (200 - (playerController.percentage * 2));
         }

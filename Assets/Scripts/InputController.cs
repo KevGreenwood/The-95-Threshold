@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using TMPro;
 using UnityEngine;
-using TMPro;
 using UnityEngine.SceneManagement;
 
 public class InputController : MonoBehaviour
@@ -59,7 +57,7 @@ public class InputController : MonoBehaviour
 
         inputGet = true;
 
-        if(GameController.instance.state == 2)
+        if (GameController.instance.state == 2)
         {
             if (enter)
             {
@@ -85,7 +83,8 @@ public class InputController : MonoBehaviour
                 Time.timeScale = 1;
                 SceneManager.LoadScene("Game");
             }
-        }else if (GameController.instance.state == 3)
+        }
+        else if (GameController.instance.state == 3)
         {
             if (escape)
             {

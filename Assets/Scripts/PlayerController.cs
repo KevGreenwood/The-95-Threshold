@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using TMPro;
 using UnityEngine;
-using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -83,7 +81,7 @@ public class PlayerController : MonoBehaviour
                 percentageText.text = percentage + "";
                 PlayShoot();
             }
-            else if(!hit)
+            else if (!hit)
             {
                 hit = true;
                 timer = 0;
@@ -97,7 +95,7 @@ public class PlayerController : MonoBehaviour
                 c.a = 255;
                 main.startColor = new ParticleSystem.MinMaxGradient(c, c);
                 particles.SetActive(true);
-                
+
 
                 sr.enabled = false;
                 sr_s.enabled = false;

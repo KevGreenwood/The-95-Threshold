@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EnemyParticlesController : MonoBehaviour
 {
@@ -10,7 +8,7 @@ public class EnemyParticlesController : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if(timer >= 1)
+        if (timer >= 1)
         {
             Destroy(gameObject);
         }

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BulletController : MonoBehaviour
 {
@@ -18,7 +16,7 @@ public class BulletController : MonoBehaviour
     {
         tr.Translate(Vector2.up * speed * Time.deltaTime);
 
-        if(tr.position.x > 6f || tr.position.x < -6f || tr.position.y > 6f || tr.position.y < -6f)
+        if (tr.position.x > 6f || tr.position.x < -6f || tr.position.y > 6f || tr.position.y < -6f)
         {
             Destroy(gameObject);
         }
